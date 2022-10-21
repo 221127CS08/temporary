@@ -79,3 +79,98 @@
 
 //PROBLEM-4
 
+// #include <cmath>
+
+// bool isEven(int number);
+
+// int main() {
+
+//     int number;
+
+//     cout << "enter a number -> ";
+//     cin >> number;
+//     cout << (isEven(number) ? "even" : "odd") << endl;
+
+
+//     return 0;
+// }
+
+// bool isEven(int number) {
+//     return number % 2 == 0;
+// }
+
+//PROBLEM--5
+
+// bool isPrime(int n);
+
+// int main() {
+//     int number;
+
+//     cout << "Enter number: ";
+//     cin >> number;
+//     cout << (isPrime(number) ? "prime" : "not prime") << endl;
+
+//     return 0;
+// }
+
+// bool isPrime(int n) {
+//     for (int i = 2; i < n; i++) {
+//         if (n % i == 0) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+//PROBLEM--6
+
+// int factorial(int n);
+
+// int main() {
+    
+//     int number;
+    
+//     cout << "enter number: -> ";
+//     cin >> number;
+//     cout << factorial(number) << endl;
+
+// return 0;
+// }
+
+// int factorial(int n) {
+//     double f = 1;
+    
+//     for (int i = 1; i <= n; i++) {
+//         f *= i;
+//     }
+    
+//     return value;
+// }
+
+//PROBLEM--7
+
+// void maxMin(int nums[], int size = 3) {
+//     int max = 0;
+//     int min = nums[0];
+    
+//     for (int i = 0; i < size; i++) {
+//         if (max < nums[i]) {
+//             max = nums[i];
+//         };
+//         if (min > nums[i]) {
+//             min = nums[i];
+//         };
+//     }
+    
+//     cout << "max is " << max << endl << "min is " << min << endl;
+// }
+
+
+// int main(){
+//     int arr[3];
+    
+//     cout << "enter 3 numbers -> ";
+//     cin >> arr[0] >> arr[1] >> arr[2];
+//     maxMin(arr);
+    
+// }
